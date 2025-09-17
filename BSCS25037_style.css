@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color:#90eeb6
+  color #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #e0f0ff;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #005b99;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+  padding-bottom: 3px;
+}
+
+.Container, .Container1, .Product1, .Product2, .Product3, .Product4, .Product5 {
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+  background: #e0f0ff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  max-width: 2500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.Welcome, .Explore {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004080;
+  margin-top: 15px;
+}
+
+a {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #ffcc66;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #ff9933;
+  color: white;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #004080;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+footer {
+  background: #e0f0ff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ccc;
+}
+
+footer p, footer a {
+  color: #333;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+footer a:hover {
+  color: #ff6600;
+}
+
+#chatbot {
+  background: white;
+  border: 1px solid #000;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+#chat-log {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: white;
+}
